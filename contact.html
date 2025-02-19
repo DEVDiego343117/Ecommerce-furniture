@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce - Contact</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/app.css"> 
+</head>
+<body>
+
+   <header>
+        <h1 class="site-name">Furniture <span>Store</span></h1>
+   </header>
+   
+   <div class="navigation-container">
+    <nav class="main-navigation container">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="store.html">Store</a>
+        <a href="blog.html">Blog</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+   </div>
+
+    <main class="main-content container">
+        <h2 class="text-center">Contact</h2>
+
+        <form class="form">
+            <fieldset>
+                <legend>Your Details</legend>
+
+                <div class="field">
+                    <label for="Name">Name:</label>
+                    <input class="input" id="Name" type="text" placeholder="Name" required/>
+                </div>
+
+                <div class="field">
+                    <label for="Subject">Subject:</label>
+                    <input class="input" id="Subject" type="text" placeholder="Subject" />
+                </div>
+
+                <div class="field">
+                    <label for="email">Email:</label>
+                    <input id="email" type="email" placeholder="Email" required/>
+                </div>
+
+                <div class="field">
+                    <label for="tel">Phone:</label>
+                    <input id="tel" type="tel" placeholder="Phone" required/>
+                </div>
+
+                <div class="field">
+                    <label for="message">Message</label>
+                    <textarea rows="10" cols="22"></textarea>
+                </div>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Country</legend>
+
+            <div class="field"></div>
+            <label for="Country">Country</label>
+            <select id="Country">
+                <option value="" selected>---Select---</option>
+                <option value="MX">Mexico</option>
+                <option value="US">United States</option>
+                <option value="CO">Colombia</option>
+                <option value="AR">Argentina</option>
+                <option value="ES">Spain</option>
+                <option value="CL">Chile</option>
+            </select>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Extra Information</legend>
+
+            <div class="field">
+                <label for="customer">Customer</label>
+                <input id="customer" type="radio" name="type" value="customer">
+            </div>
+
+            <div class="field">
+                <label for="supplier">Supplier</label>
+                <input id="supplier" type="radio" name="type" value="supplier">
+            </div>
+
+            <div class="field">
+                <label for="category">Category of Interest</label>
+                <input list="categories" name="categories">
+                <datalist id="categories">
+                    <option value="Kitchen">
+                    <option value="Exterior">
+                    <option value="Bedrooms">
+                    <option value="Office">
+                    <option value="Television">
+                </datalist>
+                </div>
+
+        </fieldset>
+
+        <input class="btn" type="submit" value="Submit Form">
+
+        </form> 
+    </main>
+    
+    <footer class="site-footer">
+        <div class="footer-grid container">
+            <div>
+                <h3>Categories</h3>
+
+                <nav class="footer-menu">
+                    <a href="*">Kitchen</a>
+                    <a href="*">Office</a>
+                    <a href="*">Garden</a>
+                    <a href="*">Garage</a>
+                    <a href="*">Bedrooms</a>
+                </nav>
+            </div>
+
+            <div>
+                <h3>About Us</h3>
+
+                <nav class="footer-menu">
+                    <a href="*">Our History</a>
+                    <a href="*">Mission, Vision, and Values</a>
+                    <a href="*">Careers</a>
+                    <a href="*">Privacy Policy</a>
+                    <a href="*">Terms of Service</a>
+                </nav>
+            </div>
+
+            <div>
+                <h3>Support</h3>
+
+                <nav class="footer-menu">
+                    <a href="*">FAQ</a>
+                    <a href="*">Online Help</a>
+                    <a href="*">Trust and Safety</a>
+                </nav>
+            </div>
+
+        </div>
+        
+        <p class="copyright">All rights reserved, Furniture Store</p>
+    </footer>
+
+</body>
+</html>
